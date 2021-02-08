@@ -2,9 +2,11 @@
 
 This is a basic implementation of the Atari Pong game. 
 <br>
+> [Live Demo](https://afatihyavasi.github.io/PongGame/)<br>
+
 ![Start Screen](img/ss1.png )
 <br>
-> [Live Demo](https://afatihyavasi.github.io/PongGame/)
+
 <br>
  -  You can play against the computer or against your friend.<br>
  
