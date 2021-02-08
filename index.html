@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gameArea">
+        <div class="startScreen">
+            <div class="selections">
+                <h3>PONG GAME</h3>
+                <form class="versusSelection">
+                    <input type='radio' name = 'versus' id="vsCom" value="vsCom" checked/>
+                    <label for= 'vsCom' >1 PLAYER</label>
+                    <input type='radio' name = 'versus' id="vsUser" value="vsUser" />
+                    <label for= 'vsUser' >2 PLAYER</label> 
+                </form>
+                  <h6>PRESS ENTER TO START THE GAME </h6> 
+            </div>
+            
+        </div>
+        <canvas id="canvas"></canvas>
+        <div class="gameOverScreen">
+            <h1>GAME OVER</h1>
+            <h4 id="playAgainText">Play Again</h4>
+        </div>   
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

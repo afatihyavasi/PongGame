@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.gameArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.startScreen{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive;
+    color:#fff;
+   
+    
+}
+.selections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.versusSelection label{
+    margin: 20px;
+}
+.startScreen h3{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    /* background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   */
+    background:linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;      
+}
+
+
+[type="radio"] {
+    display: none;
+}
+label {
+    color : #333;
+}
+
+label:hover{
+    color : #0f0;
+}
+
+input[type="radio"]:checked + label{
+   color : #fff;
+}
+
+.startScreen h6{
+    padding-top: 85px;
+    color: rgb(138, 135, 135);
+    font-size: 10px;   
+}
+
+#canvas{
+    position: absolute;
+    
+    visibility: hidden;
+    z-index: -1;
+}
+
+.gameOverScreen{
+    position: absolute;
+    background-color :#000;
+    width: 800px;
+    height: 600px;
+    font-family: 'Press Start 2P', cursive;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.gameOverScreen h1{
+    font-size: 46px;
+}
+.gameOverScreen h4{
+    padding:15px;
+    cursor: pointer;
+}
+.gameOverScreen h4:hover{
+    background-color : #fff;
+    color: #000;
+
+}
